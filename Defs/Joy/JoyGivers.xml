@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>Wrestle</defName>
+    <giverClass>JoyGiver_PlayBilliards</giverClass>
+    <baseChance>1.5</baseChance>
+    <thingDefs>
+      <li>FightingRing</li>
+    </thingDefs>
+    <jobDef>Wrestle</jobDef>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>

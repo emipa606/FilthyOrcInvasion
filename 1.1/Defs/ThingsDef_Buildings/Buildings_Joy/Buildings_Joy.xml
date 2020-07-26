@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>FightingRing</defName>
+    <label>fighting ring</label>
+    <description>A raised platform of packed mud marked by a circle. Used for practicing martial skills and for contests of strength.</description>
+    <graphicData>
+      <texPath>Things/Building/Joy/FightingRing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(2.8, 2.8, 2.8)</volume>
+      </shadowData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Joy/FightingRing</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <maxTechLevelToBuild>Medieval</maxTechLevelToBuild>
+    <fillPercent>0.40</fillPercent>
+    <building>
+      <joyKind>Gaming_Dexterity</joyKind>
+    </building>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>0</Flammability>
+      <Beauty>-10</Beauty>
+      <JoyGainFactor>1</JoyGainFactor>
+    </statBases>
+    <size>(1,1)</size>
+    <pathCost>70</pathCost>
+    <canOverlapZones>false</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_NeverAdjacentUnstandable</li>
+    </placeWorkers>
+    <passability>Standable</passability>
+    <designationCategory>Joy</designationCategory>
+  </ThingDef>
+</Defs>

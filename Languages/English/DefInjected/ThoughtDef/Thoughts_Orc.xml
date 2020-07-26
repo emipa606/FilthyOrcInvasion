@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Sleeping areas -->
+
+  <OrcSleptInBarracks.stages.0.label>awful den</OrcSleptInBarracks.stages.0.label>
+  <OrcSleptInBarracks.stages.0.description>The den is barley better than sleeping outside.</OrcSleptInBarracks.stages.0.description>
+  <OrcSleptInBarracks.stages.1.label>dull den</OrcSleptInBarracks.stages.1.label>
+  <OrcSleptInBarracks.stages.1.description>The den is a uncomfortable place.</OrcSleptInBarracks.stages.1.description>
+  <OrcSleptInBarracks.stages.2.label>mediocre den</OrcSleptInBarracks.stages.2.label>
+  <OrcSleptInBarracks.stages.2.description>I don't care for our den, but it's a place to sleep.</OrcSleptInBarracks.stages.2.description>
+  <OrcSleptInBarracks.stages.3.label>decent den</OrcSleptInBarracks.stages.3.label>
+  <OrcSleptInBarracks.stages.3.description>The den is alright, if you ignore the smell and snoring.</OrcSleptInBarracks.stages.3.description>
+  <OrcSleptInBarracks.stages.4.label>slightly impressive den</OrcSleptInBarracks.stages.4.label>
+  <OrcSleptInBarracks.stages.4.description>The den is acceptable, I could care less about it.</OrcSleptInBarracks.stages.4.description>
+  <OrcSleptInBarracks.stages.5.label>impressive den</OrcSleptInBarracks.stages.5.label>
+  <OrcSleptInBarracks.stages.5.description>The den is an inviting place. It smells like home.</OrcSleptInBarracks.stages.5.description>
+  <OrcSleptInBarracks.stages.6.label>very impressive den</OrcSleptInBarracks.stages.6.label>
+  <OrcSleptInBarracks.stages.6.description>The den is very impressive, I can rest easy there.</OrcSleptInBarracks.stages.6.description>
+  <OrcSleptInBarracks.stages.7.label>extremely impressive den</OrcSleptInBarracks.stages.7.label>
+  <OrcSleptInBarracks.stages.7.description>The den is extremely impressive, worthy of our clan.</OrcSleptInBarracks.stages.7.description>
+  <OrcSleptInBarracks.stages.8.label>unbelievably impressive den</OrcSleptInBarracks.stages.8.label>
+  <OrcSleptInBarracks.stages.8.description>The den is unbelievably impressive, the pride of our clan.</OrcSleptInBarracks.stages.8.description>
+  <OrcSleptInBarracks.stages.9.label>spectacular den</OrcSleptInBarracks.stages.9.label>
+  <OrcSleptInBarracks.stages.9.description>The den is beyond description, a symbol of our clan's strength.</OrcSleptInBarracks.stages.9.description>
+
+  <OrcSleptInBedroom.stages.0.label>terrible burrow</OrcSleptInBedroom.stages.0.label>
+  <OrcSleptInBedroom.stages.0.description>My burrow is a terrible, my grunts echo off the empty the walls.</OrcSleptInBedroom.stages.0.description>
+  <OrcSleptInBedroom.stages.3.label>uncomfortable burrow</OrcSleptInBedroom.stages.3.label>
+  <OrcSleptInBedroom.stages.3.description>My burrow is an uncomfortable, lonely place.</OrcSleptInBedroom.stages.3.description>
+  <OrcSleptInBedroom.stages.4.label>unpleasant burrow</OrcSleptInBedroom.stages.4.label>
+  <OrcSleptInBedroom.stages.4.description>My burrow is unpleasant. I wish I had company.</OrcSleptInBedroom.stages.4.description>
+  <OrcSleptInBedroom.stages.5.label>bearable burrow</OrcSleptInBedroom.stages.5.label>
+  <OrcSleptInBedroom.stages.5.description>My burrow is bearable. Its amenity distract from the emptiness.</OrcSleptInBedroom.stages.5.description>
+  <OrcSleptInBedroom.stages.6.label>comfortable burrow</OrcSleptInBedroom.stages.6.label>
+  <OrcSleptInBedroom.stages.6.description>My burrow is very comfortable. I don't mind spending time in it.</OrcSleptInBedroom.stages.6.description>
+  <OrcSleptInBedroom.stages.7.label>very comfortable burrow</OrcSleptInBedroom.stages.7.label>
+  <OrcSleptInBedroom.stages.7.description>My burrow is very comfortable. I deserve such luxuries!</OrcSleptInBedroom.stages.7.description>
+  <OrcSleptInBedroom.stages.8.label>unbelievably comfortable burrow</OrcSleptInBedroom.stages.8.label>
+  <OrcSleptInBedroom.stages.8.description>My burrow is very comfortable. I deserve such luxuries!</OrcSleptInBedroom.stages.8.description>
+  <OrcSleptInBedroom.stages.9.label>Kingly burrow</OrcSleptInBedroom.stages.9.label>
+  <OrcSleptInBedroom.stages.9.description>My burrow is fit for an elven fop. Worthy of an orc of my grander.</OrcSleptInBedroom.stages.9.description>
+
+
+  <!-- Beauty -->
+
+  <OrcNeedBeauty.stages.0.label>filthy environment</OrcNeedBeauty.stages.0.label>
+  <OrcNeedBeauty.stages.0.description>This place is getting a bit slimy.</OrcNeedBeauty.stages.0.description>
+  <OrcNeedBeauty.stages.1.label>ugly environment</OrcNeedBeauty.stages.1.label>
+  <OrcNeedBeauty.stages.1.description>This place looks as ugly as me.</OrcNeedBeauty.stages.1.description>
+  <OrcNeedBeauty.stages.2.label>mundane environment</OrcNeedBeauty.stages.2.label>
+  <OrcNeedBeauty.stages.2.description>This place is isn't much to look at.</OrcNeedBeauty.stages.2.description>
+  <OrcNeedBeauty.stages.3.label>adequate environment</OrcNeedBeauty.stages.3.label>
+  <OrcNeedBeauty.stages.3.description>I could care less about this place.</OrcNeedBeauty.stages.3.description>
+  <OrcNeedBeauty.stages.4.label>nice environment</OrcNeedBeauty.stages.4.label>
+  <OrcNeedBeauty.stages.4.description>This place is looks nice, not that I care.</OrcNeedBeauty.stages.4.description>
+  <OrcNeedBeauty.stages.5.label>gaudy environment</OrcNeedBeauty.stages.5.label>
+  <OrcNeedBeauty.stages.5.description>This place is looks like an elven palace, its a bit showy.</OrcNeedBeauty.stages.5.description>
+
+
+</LanguageData>

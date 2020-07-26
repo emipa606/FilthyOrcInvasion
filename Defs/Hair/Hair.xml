@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>CleanBald</defName>
+    <label>CleanBald</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/CleanBald</texPath>
+    <hairTags>
+      <li>OrcHair</li>
+    </hairTags>
+  </HairDef>
+  <!--<HairDef>
+    <defName>Trihair</defName>
+    <label>Trihair</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Trihair</texPath>
+		<hairTags>
+			<li>OrcHair</li>
+		</hairTags>
+ </HairDef>
+ 
+<HairDef>
+    <defName>Warpaint</defName>
+    <label>Warpaint</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hair/Warpaint</texPath>
+		<hairTags>
+			<li>OrcHair</li>
+		</hairTags>
+ </HairDef>-->
+</Defs>

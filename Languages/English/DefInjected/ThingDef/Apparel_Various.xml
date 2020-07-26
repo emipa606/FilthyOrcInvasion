@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_OrcChestPlate.label>large chest piece</Apparel_OrcChestPlate.label>
+  <Apparel_OrcChestPlate.description>A large metal plate fastened to the chest. Crude but effective at shielding against blows.</Apparel_OrcChestPlate.description>
+
+  <Apparel_OrcBreastPlate.label>large breastplate</Apparel_OrcBreastPlate.label>
+  <Apparel_OrcBreastPlate.description>Large, unwieldy metal plates forged to protect the upper body. Easily deflects blows, but restricts movement.</Apparel_OrcBreastPlate.description>
+
+  <Apparel_OrcLeggings.label>large plate leggings</Apparel_OrcLeggings.label>
+  <Apparel_OrcLeggings.description>Large metal plates and scales forged to protect the lower body. Easily deflects blows, but restricts movement.</Apparel_OrcLeggings.description>
+
+  <!--[Duplicated] <Apparel_Loincloth.label>loincloth</Apparel_Loincloth.label>-->
+  <!--[Duplicated] <Apparel_Loincloth.description>A simple covering for preserving some modesty.</Apparel_Loincloth.description>-->
+
+  <Apparel_Loincloth.label>loincloth</Apparel_Loincloth.label>
+  <Apparel_Loincloth.description>A simple covering for preserving some modesty.</Apparel_Loincloth.description>
+
+  <Apparel_OrcEmbossedLeather.label>large embossed leather vest</Apparel_OrcEmbossedLeather.label>
+  <Apparel_OrcEmbossedLeather.description>A large embossed leather vest, stuffed with padding. Effective at shielding against blows, and providing warmth.</Apparel_OrcEmbossedLeather.description>
+
+  <Apparel_HidePants.label>large hide pants</Apparel_HidePants.label>
+  <Apparel_HidePants.description>A large pair of pants made with hide and stuffed with padding. Effective at shielding against blows, and providing warmth.</Apparel_HidePants.description>
+
+
+</LanguageData>

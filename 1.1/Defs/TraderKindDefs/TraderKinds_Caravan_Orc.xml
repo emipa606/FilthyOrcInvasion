@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraderKindDef>
+    <defName>Caravan_Orc_Slaver</defName>
+    <label>slaver</label>
+    <commonality>1</commonality>
+    <stockGenerators>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>
+          <min>750</min>
+          <max>1200</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>10</min>
+          <max>20</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Slaves">
+        <countRange>
+          <min>5</min>
+          <max>7</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_Animals">
+        <checkTemperature>true</checkTemperature>
+        <maxWildness>0.70</maxWildness>
+        <tradeTagsSell>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalUncommon</li>
+          <li>AnimalFarm</li>
+          <li>AnimalPet</li>
+        </tradeTagsBuy>
+        <kindCountRange>
+          <min>3</min>
+          <max>3</max>
+        </kindCountRange>
+        <countRange>
+          <min>1</min>
+          <max>3</max>
+        </countRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>Stake</defName>
+    <label>stake</label>
+    <thingClass>Building_Grave</thingClass>
+    <maxTechLevelToBuild>Medieval</maxTechLevelToBuild>
+    <uiIconPath>Things/Building/Misc/Stake</uiIconPath>
+    <graphicData>
+      <texPath>Things/Building/Misc/StakeClear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.2, 0.2, 0.2)</volume>
+        <offset>(0.04,2,-0.3)</offset>
+      </shadowData>
+    </graphicData>
+    <constructEffect>ConstructDirt</constructEffect>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <description>A stake for the heads of your enemies, a grizzly reminder of your tribes achievements.</description>
+    <size>(1,1)</size>
+    <tickerType>Rare</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>400</WorkToBuild>
+      <Beauty>-20</Beauty>
+    </statBases>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isInert>true</isInert>
+      <preventDeteriorationInside>false</preventDeteriorationInside>
+      <fullGraveGraphicData>
+        <texPath>Things/Building/Misc/StakeUsed</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+        <drawSize>(2,2)</drawSize>
+        <shadowData>
+          <volume>(0.2, 0.2, 0.2)</volume>
+          <offset>(0.04,2,-0.3)</offset>
+        </shadowData>
+      </fullGraveGraphicData>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>CorpsesHumanlike</li>
+          </categories>
+          <specialFiltersToDisallow>
+            <li>AllowCorpsesColonist</li>
+          </specialFiltersToDisallow>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <designationCategory>Misc</designationCategory>
+  </ThingDef>
+</Defs>

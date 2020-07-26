@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Note: it seems Alien Races throws red errors if you don't set BodyTypes for backstories. Since this mod only has one, I left it as-is, but you really should set them anyway. -->
+
+  <Boneweaver.title>Boneweaver</Boneweaver.title>
+  <Boneweaver.titleShort>Boneweaver</Boneweaver.titleShort>
+  <Boneweaver.baseDescription>[PAWN_nameDef] is practiced in the 'art' of Boneweaving. Sculpting sinew and bones of [PAWN_possessive] enemies into orcish fetishes.</Boneweaver.baseDescription>
+
+  <MudHand.title>Mud hand</MudHand.title>
+  <MudHand.titleShort>Mud Hand</MudHand.titleShort>
+  <MudHand.baseDescription>Although useful, sowing fields is looked down upon in orc culture. The bottom of the social hierarchy, [PAWN_nameDef] was spared from the meat pits by staving off his kin's hunger.</MudHand.baseDescription>
+
+  <Chanter.title>Chanter</Chanter.title>
+  <Chanter.titleShort>Chanter</Chanter.titleShort>
+  <Chanter.baseDescription>Gifted with an unusually wide snout, [PAWN_nameDef]'s bellowing grunts are put to use in orcish rituals and ceremonies.</Chanter.baseDescription>
+
+  <DungPusher.title>Dung pusher</DungPusher.title>
+  <DungPusher.titleShort>Dung Pusher</DungPusher.titleShort>
+  <DungPusher.baseDescription>[PAWN_nameDef] found his place in orcish society as a respected dung pusher, keeping the meat pits filled.</DungPusher.baseDescription>
+
+  <King.title>King</King.title>
+  <King.titleShort>King</King.titleShort>
+  <King.baseDescription>[PAWN_nameDef] sheds a peerless musk of dominance. Lesser orcs shutter as steam bellows from his great snout. [PAWN_nameDef] spent his days growing bloated off of tribute and having weaker orcs expand his realm.</King.baseDescription>
+
+  <DenDweller.title>Den dweller</DenDweller.title>
+  <DenDweller.titleShort>Den Dweller</DenDweller.titleShort>
+  <DenDweller.baseDescription>Cowardly, and with no solid place in orc society, [PAWN_nameDef] survived the meatpits based on fear, wit, instinct, and knowing who to grovel to. For now.</DenDweller.baseDescription>
+
+  <Tinkerer.title>Tinkerer</Tinkerer.title>
+  <Tinkerer.titleShort>Tinkerer</Tinkerer.titleShort>
+  <Tinkerer.baseDescription>While ingenuity is the antithesis of orc culture, [PAWN_nameDef] has a nack for stumbling upon useful ideas. While not full appreciated by his peers, [PAWN_nameDef] was deemed useful enough to not be eaten. </Tinkerer.baseDescription>
+
+  <Butcher.title>Butcher</Butcher.title>
+  <Butcher.titleShort>Butcher</Butcher.titleShort>
+  <Butcher.baseDescription>An envied position in orc society, [PAWN_nameDef]'s culinary skills and keen clever arm has granted [PAWN_objective] the honor of tending the meatpits.</Butcher.baseDescription>
+
+  <SlaveKeeper.title>Slave keeper</SlaveKeeper.title>
+  <SlaveKeeper.titleShort>Slave Keeper</SlaveKeeper.titleShort>
+  <SlaveKeeper.baseDescription>[PAWN_nameDef]'s brutal nature and attention to details has landed [PAWN_objective] the lofty position of tending to orcish livestock.</SlaveKeeper.baseDescription>
+
+  <Orc_Bandit.title>Bandit</Orc_Bandit.title>
+  <Orc_Bandit.titleShort>Bandit</Orc_Bandit.titleShort>
+  <Orc_Bandit.baseDescription>Always an opportunist [PAWN_nameDef] made their way by preying upon farmsteads and lonely roadways, using simple traps and ambushes.</Orc_Bandit.baseDescription>
+
+  <Orc_Digger.title>Rock scraper</Orc_Digger.title>
+  <Orc_Digger.titleShort>Rock Scraper</Orc_Digger.titleShort>
+  <Orc_Digger.baseDescription>With nails as hard as steel, [PAWN_nameDef] was put work expanding tunnel networks of his clans burrows.</Orc_Digger.baseDescription>
+
+  <MudSlapper.title>Mud slapper</MudSlapper.title>
+  <MudSlapper.titleShort>Mud Slapper</MudSlapper.titleShort>
+  <MudSlapper.baseDescription>Tedious and thankless work, [PAWN_nameDef] made [PAWN_possessive] by way constructing crude siege works and forts for his clan.</MudSlapper.baseDescription>
+
+  <Orc_Conquerer.title>Conquerer</Orc_Conquerer.title>
+  <Orc_Conquerer.titleShort>Conquerer</Orc_Conquerer.titleShort>
+  <Orc_Conquerer.baseDescription>Lusting for the exaltation of a burning capitals and crumbling fortresses, [PAWN_nameDef] carved a bloody path. A mere whisper of [PAWN_possessive] name inspired terror. </Orc_Conquerer.baseDescription>
+
+  <CityDweller.title>City dweller</CityDweller.title>
+  <CityDweller.titleShort>City Dweller</CityDweller.titleShort>
+  <CityDweller.baseDescription>skulking in the waterways of a large town, [PAWN_nameDef] and [PAWN_possessive] clan lead a campaign of terror, emerging at night to hunt for prey before returning to the city depths.</CityDweller.baseDescription>
+
+
+  <!-- Childhood -->
+
+  <OgreRaised.title>Ogrekin</OgreRaised.title>
+  <OgreRaised.titleShort>Ogrekin</OgreRaised.titleShort>
+  <OgreRaised.baseDescription>[PAWN_nameDef] was 'raised' by the terrifying Ogre tribes. Too much effort to kill, [PAWN_pronoun] lived off scraps before venturing out into the world. </OgreRaised.baseDescription>
+
+  <Weathered.title>Weathered</Weathered.title>
+  <Weathered.titleShort>Weathered</Weathered.titleShort>
+  <Weathered.baseDescription>Born in the wild and left for dead, [PAWN_nameDef] clung onto life. subsisting off insects and roots until [PAWN_pronoun] was large enough to hunt.</Weathered.baseDescription>
+
+  <Runt.title>Runt</Runt.title>
+  <Runt.titleShort>Runt</Runt.titleShort>
+  <Runt.baseDescription>[PAWN_nameDef] was born the runt of his litter. Always dismissed by his clan, early life was a struggle but the experience hardened [PAWN_objective].</Runt.baseDescription>
+
+  <MisshapenA.title>Misshapen</MisshapenA.title>
+  <MisshapenA.titleShort>Misshapen</MisshapenA.titleShort>
+  <MisshapenA.baseDescription>[PAWN_nameDef] was born with a malformed snout. Such oddities are revered in orc culture as a good omens, and [PAWN_pronoun] was favored by his clan.</MisshapenA.baseDescription>
+
+  <MisshapenB.title>Misshapen</MisshapenB.title>
+  <MisshapenB.titleShort>Misshapen</MisshapenB.titleShort>
+  <MisshapenB.baseDescription>[PAWN_nameDef] was born with massive tusks, killing his siblings in the womb. Such oddities are seen in orc culture as a omens of great and terrible things, and [PAWN_pronoun] was feared by his clan.</MisshapenB.baseDescription>
+
+  <Bloodmoon.title>Bloodborn</Bloodmoon.title>
+  <Bloodmoon.titleShort>Bloodborn</Bloodmoon.titleShort>
+  <Bloodmoon.baseDescription>[PAWN_nameDef] was born under a blood moon following a successful raid. Such oddities are seen in orc culture as omens of great conquests to come for the clan. [PAWN_pronoun] was drilled from youth to fulfill [PAWN_possessive] destiny.</Bloodmoon.baseDescription>
+
+  <GutterRat.title>Gutter rat</GutterRat.title>
+  <GutterRat.titleShort>Gutter Rat</GutterRat.titleShort>
+  <GutterRat.baseDescription>[PAWN_nameDef] was born in a city, being discarded into its waterways after birth. Subsisting on rats and what drifted through the sewer, [PAWN_nameDef] thrived in the dark.</GutterRat.baseDescription>
+
+  <Folktale.title>Folktale</Folktale.title>
+  <Folktale.titleShort>Folktale</Folktale.titleShort>
+  <Folktale.baseDescription>[PAWN_nameDef] spent his youth terrorizing the countryside, stealing away farm animals and children in the night and leaving charms in their place. Tales were spun around these vanishings, and he became a local legend.</Folktale.baseDescription>
+
+  <DemonSpawn.title>Demon spawn</DemonSpawn.title>
+  <DemonSpawn.titleShort>Demon Spawn</DemonSpawn.titleShort>
+  <DemonSpawn.baseDescription>Even by orcish standards, [PAWN_nameDef] was seen as overly aggressive in his youth, participating in raids with orcs years his senior.</DemonSpawn.baseDescription>
+
+
+</LanguageData>

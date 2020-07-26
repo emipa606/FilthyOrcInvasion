@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="OrcFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef Parent="OrcFactionBase">
+    <defName>OrcPlayerTribe</defName>
+    <label>Orc Clan</label>
+    <description>Your fledging empire.</description>
+    <basicMemberKind>Alien_Orc</basicMemberKind>
+    <pawnsPlural>orcs</pawnsPlural>
+    <isPlayer>true</isPlayer>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <pawnNameMaker>NamerPersonOrc</pawnNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <!--factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer-->
+    <!-- removed in B19? -->
+    <geneticVariance>1</geneticVariance>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>OrcHair</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <homeIconPath>WorldIcon/OrcVillagelarge</homeIconPath>
+    <expandingIconTexture>WorldIcon/OrcVillage</expandingIconTexture>
+  </FactionDef>
+</Defs>

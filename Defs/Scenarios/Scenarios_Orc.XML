@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>OrcScenario</defName>
+    <label>Invasion</label>
+    <scenario>
+      <name>Invasion</name>
+      <summary>Pursued by their ancient enemies, four orcs band together to conquer a new world.</summary>
+      <description>As Magi-Elf coalition forces breached the inner gates of demon king's fortress, victory seemed inevitable. However the warlock cheated defeat by unleashing a secret weapon which consumed his orcish war-host in a thick fog, transporting them across time and space. As the fog dissipates the orcs find themselves no longer the demon's thralls, and surrounded by a world ripe for the reaping. However, the coalition forces are unlikely to let the demon king escape so easily. </description>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>OrcPlayerTribe</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>4</pawnCount>
+          <pawnChoiceCount>10</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>250</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Javelin</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_GreatClub</thingDef>
+          <stuff>WoodLog</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>500</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Pemmican</thingDef>
+          <count>100</count>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingThing_Defined</def>
+          <animalKind>Pig</animalKind>
+          <count>5</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Club</thingDef>
+          <stuff>WoodLog</stuff>
+          <count>2</count>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Now longer bound by the demon kings power, a small clan of orcs venture out into their new world. The orc invasion has begun.</text>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>
