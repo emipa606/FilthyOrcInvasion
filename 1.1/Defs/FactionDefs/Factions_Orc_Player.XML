@@ -9,7 +9,7 @@
     <defName>OrcPlayerTribe</defName>
     <label>Orc Clan</label>
     <description>Your fledging empire.</description>
-    <basicMemberKind>Alien_Orc</basicMemberKind>
+    <basicMemberKind>OrcPlayer</basicMemberKind>
     <pawnsPlural>orcs</pawnsPlural>
     <isPlayer>true</isPlayer>
     <factionNameMaker>NamerFactionTribal</factionNameMaker>

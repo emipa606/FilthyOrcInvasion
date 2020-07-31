@@ -4,7 +4,7 @@
     <defName>OrcTribe</defName>
     <label>The Orcish Clans</label>
     <description>A horde of orcs, who value only brutality.</description>
-    <pawnsPlural>Tibesman</pawnsPlural>
+    <pawnsPlural>Orcs</pawnsPlural>
     <settlementGenerationWeight>0.55</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
@@ -55,8 +55,32 @@
     <pawnGroupMakers>
       <li>
         <kindDef>Combat</kindDef>
+        <commonality>100</commonality>
         <options>
-          <OrcRaider>700</OrcRaider>
+          <Alien_Orc>8</Alien_Orc>
+          <OrcRaider>5</OrcRaider>
+          <OrcGrunt>3</OrcGrunt>
+          <OrcWarlord>1</OrcWarlord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Alien_Orc>5</Alien_Orc>
+          <OrcRaider>8</OrcRaider>
+          <OrcGrunt>3</OrcGrunt>
+          <OrcWarlord>1</OrcWarlord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <commonality>60</commonality>
+        <options>
+          <Alien_Orc>5</Alien_Orc>
+          <OrcRaider>5</OrcRaider>
+          <OrcGrunt>5</OrcGrunt>
+          <OrcWarlord>2</OrcWarlord>
         </options>
       </li>
       <li>
@@ -65,16 +89,30 @@
           <OrcScrounger>1</OrcScrounger>
         </traders>
         <carriers>
-          <Muffalo>2</Muffalo>
+          <Muffalo>6</Muffalo>
+          <Dromedary>5</Dromedary>
+          <Alpaca>2.5</Alpaca>
+          <Elephant>2</Elephant>
         </carriers>
         <guards>
-          <OrcRaider>260</OrcRaider>
+          <Alien_Orc>20</Alien_Orc>
+          <OrcRaider>20</OrcRaider>
         </guards>
       </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <OrcRaider>400</OrcRaider>
+          <Alien_Orc>20</Alien_Orc>
+          <OrcRaider>20</OrcRaider>
+          <OrcGrunt>10</OrcGrunt>
+          <OrcWarlord>5</OrcWarlord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Alien_Orc>20</Alien_Orc>
+          <OrcRaider>20</OrcRaider>
         </options>
       </li>
     </pawnGroupMakers>

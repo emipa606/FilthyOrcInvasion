@@ -6,6 +6,11 @@
     <description>A helmet tailored for the topography of orcish skulls. A visor and ear coverings protects the more vulnerable features against cuts and bashing.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
+      <researchPrerequisite>Smithing</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
@@ -14,10 +19,10 @@
     </graphicData>
     <statBases>
       <WorkToMake>12000</WorkToMake>
-      <MaxHitPoints>120</MaxHitPoints>
+      <MaxHitPoints>400</MaxHitPoints>
       <Mass>2.4</Mass>
-      <ArmorRating_Blunt>0.23</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
       <EquipDelay>1.5</EquipDelay>
     </statBases>
     <stuffCategories>

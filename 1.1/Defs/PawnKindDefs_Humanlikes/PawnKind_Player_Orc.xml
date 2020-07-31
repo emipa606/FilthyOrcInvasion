@@ -11,7 +11,7 @@
       <li>OrcBackstory</li>
     </backstoryCategories>
     <isFighter>true</isFighter>
-    <combatPower>120</combatPower>
+    <combatPower>30</combatPower>
     <apparelTags>
       <li>OrcCloths</li>
     </apparelTags>

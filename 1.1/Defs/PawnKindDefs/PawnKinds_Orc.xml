@@ -12,21 +12,21 @@
   <PawnKindDef ParentName="BaseOrcPawnKind">
     <defName>Alien_Orc</defName>
     <label>Orc</label>
-    <defaultFactionType>OrcPlayerTribe</defaultFactionType>
+    <defaultFactionType>OrcTribe</defaultFactionType>
     <backstoryCategories>
       <li>OrcBackstory</li>
     </backstoryCategories>
-    <combatPower>120</combatPower>
+    <combatPower>50</combatPower>
     <apparelMoney>
       <min>1000</min>
-      <max>2400</max>
+      <max>2500</max>
     </apparelMoney>
     <apparelTags>
       <li>OrcCloths</li>
     </apparelTags>
     <weaponMoney>
-      <min>60</min>
-      <max>400</max>
+      <min>400</min>
+      <max>850</max>
     </weaponMoney>
     <weaponTags>
       <li>NeolithicMeleeBasic</li>
@@ -40,10 +40,11 @@
   <PawnKindDef ParentName="BaseOrcPawnKind">
     <defName>OrcRaider</defName>
     <label>orc raider</label>
-    <combatPower>120</combatPower>
+    <combatPower>70</combatPower>
     <backstoryCategories>
       <li>OrcBackstory</li>
     </backstoryCategories>
+    <defaultFactionType>OrcTribe</defaultFactionType>
     <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
     <isFighter>true</isFighter>
     <minGenerationAge>20</minGenerationAge>
@@ -53,8 +54,65 @@
       <max>1.8</max>
     </gearHealthRange>
     <apparelMoney>
-      <min>180</min>
-      <max>350</max>
+      <min>1000</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>500</min>
+      <max>1500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>GiantMelee</li>
+      <li>GiantRanged</li>
+    </weaponTags>
+  </PawnKindDef>
+  <!-- NPC TRADER CLASS -->
+  <PawnKindDef ParentName="BaseOrcPawnKind">
+    <defName>OrcScrounger</defName>
+    <label>orc scrounger</label>
+    <combatPower>60</combatPower>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <defaultFactionType>OrcTribe</defaultFactionType>
+    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>30</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>500</min>
+      <max>1500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <trader>true</trader>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseOrcPawnKind">
+    <defName>OrcGrunt</defName>
+    <label>orc grunt</label>
+    <defaultFactionType>OrcTribe</defaultFactionType>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <combatPower>100</combatPower>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2500</max>
     </apparelMoney>
     <apparelTags>
       <li>OrcCloths</li>
@@ -69,35 +127,31 @@
       <li>GiantRanged</li>
     </weaponTags>
   </PawnKindDef>
-  <!-- NPC TRADER CLASS -->
   <PawnKindDef ParentName="BaseOrcPawnKind">
-    <defName>OrcScrounger</defName>
-    <label>orc scrounger</label>
-    <combatPower>120</combatPower>
+    <defName>OrcWarlord</defName>
+    <label>orc warlord</label>
+    <defaultFactionType>OrcTribe</defaultFactionType>
     <backstoryCategories>
       <li>OrcBackstory</li>
     </backstoryCategories>
-    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
-    <minGenerationAge>20</minGenerationAge>
-    <maxGenerationAge>30</maxGenerationAge>
-    <gearHealthRange>
-      <min>0.5</min>
-      <max>1.8</max>
-    </gearHealthRange>
+    <combatPower>140</combatPower>
+    <factionLeader>true</factionLeader>
     <apparelMoney>
-      <min>180</min>
-      <max>350</max>
+      <min>2000</min>
+      <max>3500</max>
     </apparelMoney>
     <apparelTags>
       <li>OrcCloths</li>
     </apparelTags>
     <weaponMoney>
-      <min>60</min>
-      <max>400</max>
+      <min>250</min>
+      <max>550</max>
     </weaponMoney>
     <weaponTags>
-      <li>NeolithicMeleeBasic</li>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>GiantMelee</li>
+      <li>GiantRanged</li>
     </weaponTags>
-    <trader>true</trader>
   </PawnKindDef>
 </Defs>

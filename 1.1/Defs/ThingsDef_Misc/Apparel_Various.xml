@@ -37,7 +37,7 @@
       </bodyPartGroups>
       <wornGraphicPath>Pawn/Humanlike/Apparel/OrcChestPlate/OrcChestPlate</wornGraphicPath>
       <layers>
-        <li>Middle</li>
+        <li>Shell</li>
       </layers>
       <tags>
         <li>OrcCloths</li>
@@ -65,14 +65,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>120000</WorkToMake>
+      <WorkToMake>38000</WorkToMake>
       <MaxHitPoints>400</MaxHitPoints>
-      <Mass>30</Mass>
-      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.30</ArmorRating_Heat>
-      <Insulation_Cold>15</Insulation_Cold>
-      <EquipDelay>3.5</EquipDelay>
+      <Mass>15</Mass>
+      <StuffEffectMultiplierArmor>0.93</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+      <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
       <MoveSpeed>-0.5</MoveSpeed>
@@ -85,9 +83,6 @@
       <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>250</costStuffCount>
-    <costList>
-      <ComponentIndustrial>12</ComponentIndustrial>
-    </costList>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
@@ -125,13 +120,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>100000</WorkToMake>
+      <WorkToMake>38000</WorkToMake>
       <MaxHitPoints>400</MaxHitPoints>
-      <Mass>30</Mass>
-      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.30</ArmorRating_Heat>
-      <Insulation_Cold>15</Insulation_Cold>
+      <Mass>10</Mass>
+      <StuffEffectMultiplierArmor>0.93</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <equippedStatOffsets>
@@ -145,15 +138,11 @@
       <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>100</costStuffCount>
-    <costList>
-      <ComponentIndustrial>6</ComponentIndustrial>
-    </costList>
     <apparel>
       <bodyPartGroups>
         <li>Legs</li>
       </bodyPartGroups>
       <layers>
-        <li>OnSkin</li>
         <li>Middle</li>
         <li>Shell</li>
       </layers>
@@ -263,13 +252,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>20000</WorkToMake>
+      <WorkToMake>12000</WorkToMake>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>2</Mass>
-      <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-      <Insulation_Cold>30</Insulation_Cold>
-      <Insulation_Heat>2</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <thingCategories>
@@ -331,13 +319,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <WorkToMake>20000</WorkToMake>
+      <WorkToMake>12000</WorkToMake>
       <MaxHitPoints>200</MaxHitPoints>
       <Mass>2</Mass>
-      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
-      <Insulation_Cold>30</Insulation_Cold>
-      <Insulation_Heat>2</Insulation_Heat>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>3</EquipDelay>
     </statBases>
     <thingCategories>

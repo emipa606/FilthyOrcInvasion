@@ -86,8 +86,12 @@
       <generalSettings>
         <maleGenderProbability>1.0</maleGenderProbability>
         <immuneToAge>false</immuneToAge>
-        <!-- renamed in B19 Alien Races, but I can't find updated documentation. -->
-        <!--pawnsSpecificBackstories>true</pawnsSpecificBackstories-->
+        <!-- <useOnlyPawnkindBackstories>true</useOnlyPawnkindBackstories> -->
+        <disallowedTraits>
+          <li>Kind</li>
+          <li>Gay</li>
+          <li>Wimp</li>
+        </disallowedTraits>
         <allowHumanBios>false</allowHumanBios>
         <humanRecipeImport>true</humanRecipeImport>
         <alienPartGenerator>
@@ -178,18 +182,6 @@
             <defName>Cannibal</defName>
           </li>
           <li>
-            <defName>Kind</defName>
-            <chance>0</chance>
-          </li>
-          <li>
-            <defName>Gay</defName>
-            <chance>0</chance>
-          </li>
-          <li>
-            <defName>Wimp</defName>
-            <chance>0</chance>
-          </li>
-          <li>
             <defName>Beauty</defName>
             <degree>1</degree>
             <chance>0</chance>
@@ -254,63 +246,7 @@
         <relationChanceModifierSibling>1</relationChanceModifierSibling>
         <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
       </relationSettings>
-      <!-- renamed in B19 Alien Races, but I can't find updated documentation -->
-      <!--pawnKindSettings> 
-    <alienslavekinds>
-        <li>
-            <kindDefs>
-                <li>OrcPlayer</li>
-            </kindDefs>
-            <chance>25.0</chance>
-        </li>
-    </alienslavekinds>
-
-    <startingColonists>
-        <li>
-            <pawnKindEntries>
-                <li>
-                    <kindDefs>
-                        <li>OrcPlayer</li>
-                    </kindDefs>
-                    <chance>100.0</chance>
-                </li>
-            </pawnKindEntries>
-            <factionDefs>
-                <li>OrcPlayerTribe</li>
-            </factionDefs>
-        </li>
-    </startingColonists>
-    <alienwandererkinds>
-                <li>
-                    <pawnKindEntries>
-                        <li>
-                            <kindDefs>
-                                <li>OrcPlayer</li>
-                            </kindDefs>
-                            <chance>25.0</chance>
-                        </li>
-                    </pawnKindEntries>
-                    <factionDefs>
-					<li>OrcPlayerTribe</li>
-                    </factionDefs>
-                </li>
-    </alienwandererkinds>
-</pawnKindSettings-->
       <thoughtSettings>
-        <replacerList>
-          <li>
-            <original>SleptInBarracks</original>
-            <replacer>OrcSleptInBarracks</replacer>
-          </li>
-          <li>
-            <original>NeedBeauty</original>
-            <replacer>OrcNeedBeauty</replacer>
-          </li>
-          <li>
-            <original>SleptInBedroom</original>
-            <replacer>OrcSleptInBedroom</replacer>
-          </li>
-        </replacerList>
         <cannotReceiveThoughts>
           <li>ObservedLayingRottingCorpse</li>
           <li>WitnessedDeathNonAlly</li>
@@ -322,7 +258,11 @@
           <li>SleepDisturbed</li>
           <li>AteRawFood</li>
           <li>AteCorpse</li>
+          <li>NeedBeauty</li>
         </cannotReceiveThoughts>
+        <restrictedThoughts>
+          <li>OrcNeedBeauty</li>
+        </restrictedThoughts>
       </thoughtSettings>
     </alienRace>
     <race>
@@ -428,4 +368,33 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
+  <AlienRace.RaceSettings>
+    <defName>FilthyOrcInvasionRaceSettings</defName>
+    <pawnKindSettings>
+      <alienslavekinds>
+        <li>
+          <kindDefs>
+            <li>OrcPlayer</li>
+          </kindDefs>
+          <chance>25</chance>
+        </li>
+      </alienslavekinds>
+      <alienwandererkinds>
+        <li>
+          <pawnKindEntries>
+            <li>
+              <kindDefs>
+                <li>Alien_Orc</li>
+                <li>OrcRaider</li>
+              </kindDefs>
+              <chance>10</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>OrcPlayerTribe</li>
+          </factionDefs>
+        </li>
+      </alienwandererkinds>
+    </pawnKindSettings>
+  </AlienRace.RaceSettings>
 </Defs>
