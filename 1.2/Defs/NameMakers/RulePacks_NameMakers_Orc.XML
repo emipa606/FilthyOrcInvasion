@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerPersonOrc</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[maleorc] [orcsurname]</li>
+        <li>name-&gt;[femaleorc] [orcsurname]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>maleorc</keyword>
+          <path>Names/maleorcnames</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>femaleorc</keyword>
+          <path>Names/femaleorcnames</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>orcsurname</keyword>
+          <path>Names/orcsurnames</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

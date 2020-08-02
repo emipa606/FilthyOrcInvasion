@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnKindDef>
+    <defName>OrcPlayer</defName>
+    <defaultFactionType>OrcPlayerTribe</defaultFactionType>
+    <label>orc</label>
+    <race>Alien_Orc</race>
+    <labelMale>Male orc</labelMale>
+    <labelFemale>Orc Queen</labelFemale>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <isFighter>true</isFighter>
+    <combatPower>30</combatPower>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>100</min>
+      <max>200</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>

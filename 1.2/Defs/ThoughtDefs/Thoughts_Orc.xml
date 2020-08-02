@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Sleeping areas -->
+  <ThoughtDef>
+    <defName>OrcSleptInBarracks</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>awful den</label>
+        <description>The den is barley better than sleeping outside.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>dull den</label>
+        <description>The den is a uncomfortable place.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>mediocre den</label>
+        <description>I don't care for our den, but it's a place to sleep.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>decent den</label>
+        <description>The den is alright, if you ignore the smell and snoring.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>slightly impressive den</label>
+        <description>The den is acceptable, I could care less about it.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>impressive den</label>
+        <description>The den is an inviting place. It smells like home.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>very impressive den</label>
+        <description>The den is very impressive, I can rest easy there.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>extremely impressive den</label>
+        <description>The den is extremely impressive, worthy of our clan.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably impressive den</label>
+        <description>The den is unbelievably impressive, the pride of our clan.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>spectacular den</label>
+        <description>The den is beyond description, a symbol of our clan's strength.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>OrcSleptInBedroom</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>terrible burrow</label>
+        <description>My burrow is a terrible, my grunts echo off the empty the walls.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+      <li IsNull="True" />
+      <!-- dull -->
+      <li IsNull="True" />
+      <!-- mediocre -->
+      <li>
+        <label>uncomfortable burrow</label>
+        <description>My burrow is an uncomfortable, lonely place.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>unpleasant burrow</label>
+        <description>My burrow is unpleasant. I wish I had company.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>bearable burrow</label>
+        <description>My burrow is bearable. Its amenity distract from the emptiness.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>comfortable burrow</label>
+        <description>My burrow is very comfortable. I don't mind spending time in it.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>very comfortable burrow</label>
+        <description>My burrow is very comfortable. I deserve such luxuries!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>unbelievably comfortable burrow</label>
+        <description>My burrow is very comfortable. I deserve such luxuries!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Kingly burrow</label>
+        <description>My burrow is fit for an elven fop. Worthy of an orc of my grander.</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Beauty -->
+  <ThoughtDef>
+    <defName>OrcNeedBeauty</defName>
+    <workerClass>ThoughtWorker_NeedBeauty</workerClass>
+    <stages>
+      <li>
+        <label>filthy environment</label>
+        <description>This place is getting a bit slimy.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>ugly environment</label>
+        <description>This place looks as ugly as me.</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>mundane environment</label>
+        <description>This place is isn't much to look at.</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>adequate environment</label>
+        <description>I could care less about this place.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>nice environment</label>
+        <description>This place is looks nice, not that I care.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>gaudy environment</label>
+        <description>This place is looks like an elven palace, its a bit showy.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

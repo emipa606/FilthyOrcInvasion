@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- BASELINE STATS Anything with ParentName=BaseOrcPawnKind will have these stats -->
+  <PawnKindDef Abstract="True" Name="BaseOrcPawnKind">
+    <race>Alien_Orc</race>
+    <baseRecruitDifficulty>0.80</baseRecruitDifficulty>
+    <chemicalAddictionChance>0.005</chemicalAddictionChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseOrcPawnKind">
+    <defName>Alien_Orc</defName>
+    <label>Orc</label>
+    <defaultFactionType>OrcTribe</defaultFactionType>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <combatPower>50</combatPower>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>400</min>
+      <max>850</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>NeolithicRangedBasic</li>
+      <li>GiantMelee</li>
+      <li>GiantRanged</li>
+    </weaponTags>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+  <!-- NPC COMBAT CLASSES Warlord, Raider, Marauder, Brigand -->
+  <PawnKindDef ParentName="BaseOrcPawnKind">
+    <defName>OrcRaider</defName>
+    <label>orc raider</label>
+    <combatPower>70</combatPower>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <defaultFactionType>OrcTribe</defaultFactionType>
+    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+    <isFighter>true</isFighter>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>30</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>500</min>
+      <max>1500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>GiantMelee</li>
+      <li>GiantRanged</li>
+    </weaponTags>
+  </PawnKindDef>
+  <!-- NPC TRADER CLASS -->
+  <PawnKindDef ParentName="BaseOrcPawnKind">
+    <defName>OrcScrounger</defName>
+    <label>orc scrounger</label>
+    <combatPower>60</combatPower>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <defaultFactionType>OrcTribe</defaultFactionType>
+    <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
+    <minGenerationAge>20</minGenerationAge>
+    <maxGenerationAge>30</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>500</min>
+      <max>1500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+    </weaponTags>
+    <trader>true</trader>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseOrcPawnKind">
+    <defName>OrcGrunt</defName>
+    <label>orc grunt</label>
+    <defaultFactionType>OrcTribe</defaultFactionType>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <combatPower>100</combatPower>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>60</min>
+      <max>400</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>GiantMelee</li>
+      <li>GiantRanged</li>
+    </weaponTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="BaseOrcPawnKind">
+    <defName>OrcWarlord</defName>
+    <label>orc warlord</label>
+    <defaultFactionType>OrcTribe</defaultFactionType>
+    <backstoryCategories>
+      <li>OrcBackstory</li>
+    </backstoryCategories>
+    <combatPower>140</combatPower>
+    <factionLeader>true</factionLeader>
+    <apparelMoney>
+      <min>2000</min>
+      <max>3500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>OrcCloths</li>
+    </apparelTags>
+    <weaponMoney>
+      <min>250</min>
+      <max>550</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MedievalMeleeDecent</li>
+      <li>MedievalMeleeAdvanced</li>
+      <li>GiantMelee</li>
+      <li>GiantRanged</li>
+    </weaponTags>
+  </PawnKindDef>
+</Defs>

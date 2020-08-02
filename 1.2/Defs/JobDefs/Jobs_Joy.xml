@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>Wrestle</defName>
+    <driverClass>JobDriver_PlayBilliards</driverClass>
+    <reportString>wrestling.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joyMaxParticipants>2</joyMaxParticipants>
+    <joyGainRate>1</joyGainRate>
+    <joySkill>Melee</joySkill>
+    <joyXpPerTick>0.1</joyXpPerTick>
+    <joyKind>Gaming_Dexterity</joyKind>
+    <taleOnCompletion>PlayedGame</taleOnCompletion>
+  </JobDef>
+</Defs>
