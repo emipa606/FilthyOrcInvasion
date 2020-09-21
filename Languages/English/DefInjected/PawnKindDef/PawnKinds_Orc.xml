@@ -1,34 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- BASELINE STATS Anything with ParentName=BaseOrcPawnKind will have these stats -->
-
-  <Alien_Orc.label>Orc</Alien_Orc.label>
-  <Alien_Orc.labelPlural>Orcs</Alien_Orc.labelPlural>
-  <Alien_Orc.labelMale>male Orc</Alien_Orc.labelMale>
-  <Alien_Orc.labelMalePlural>male Orcs</Alien_Orc.labelMalePlural>
-  <Alien_Orc.labelFemale>female Orc</Alien_Orc.labelFemale>
-  <Alien_Orc.labelFemalePlural>female Orcs</Alien_Orc.labelFemalePlural>
-
-
+  <!--<Alien_Orc.label>Orc</Alien_Orc.label>-->
+  <!--<Alien_Orc.labelPlural>Orcs</Alien_Orc.labelPlural>-->
+  <!--<Alien_Orc.labelMale>male Orc</Alien_Orc.labelMale>-->
+  <!--<Alien_Orc.labelMalePlural>male Orcs</Alien_Orc.labelMalePlural>-->
+  <!--<Alien_Orc.labelFemale>female Orc</Alien_Orc.labelFemale>-->
+  <!--<Alien_Orc.labelFemalePlural>female Orcs</Alien_Orc.labelFemalePlural>-->
   <!-- NPC COMBAT CLASSES Warlord, Raider, Marauder, Brigand -->
-
-  <OrcRaider.label>orc raider</OrcRaider.label>
-  <OrcRaider.labelPlural>orc raiders</OrcRaider.labelPlural>
-  <OrcRaider.labelMale>male orc raider</OrcRaider.labelMale>
-  <OrcRaider.labelMalePlural>male orc raiders</OrcRaider.labelMalePlural>
-  <OrcRaider.labelFemale>female orc raider</OrcRaider.labelFemale>
-  <OrcRaider.labelFemalePlural>female orc raiders</OrcRaider.labelFemalePlural>
-
-
+  <!--<OrcRaider.label>orc raider</OrcRaider.label>-->
+  <!--<OrcRaider.labelPlural>orc raiders</OrcRaider.labelPlural>-->
+  <!--<OrcRaider.labelMale>male orc raider</OrcRaider.labelMale>-->
+  <!--<OrcRaider.labelMalePlural>male orc raiders</OrcRaider.labelMalePlural>-->
+  <!--<OrcRaider.labelFemale>female orc raider</OrcRaider.labelFemale>-->
+  <!--<OrcRaider.labelFemalePlural>female orc raiders</OrcRaider.labelFemalePlural>-->
   <!-- NPC TRADER CLASS -->
-
-  <OrcScrounger.label>orc scrounger</OrcScrounger.label>
-  <OrcScrounger.labelPlural>orc scroungers</OrcScrounger.labelPlural>
-  <OrcScrounger.labelMale>male orc scrounger</OrcScrounger.labelMale>
-  <OrcScrounger.labelMalePlural>male orc scroungers</OrcScrounger.labelMalePlural>
-  <OrcScrounger.labelFemale>female orc scrounger</OrcScrounger.labelFemale>
-  <OrcScrounger.labelFemalePlural>female orc scroungers</OrcScrounger.labelFemalePlural>
-
+  <!--<OrcScrounger.label>orc scrounger</OrcScrounger.label>-->
+  <!--<OrcScrounger.labelPlural>orc scroungers</OrcScrounger.labelPlural>-->
+  <!--<OrcScrounger.labelMale>male orc scrounger</OrcScrounger.labelMale>-->
+  <!--<OrcScrounger.labelMalePlural>male orc scroungers</OrcScrounger.labelMalePlural>-->
+  <!--<OrcScrounger.labelFemale>female orc scrounger</OrcScrounger.labelFemale>-->
+  <!--<OrcScrounger.labelFemalePlural>female orc scroungers</OrcScrounger.labelFemalePlural>-->
 
 </LanguageData>

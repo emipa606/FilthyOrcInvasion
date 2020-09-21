@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <OrcPlayer.label>orc</OrcPlayer.label>
-  <OrcPlayer.labelPlural>orcs</OrcPlayer.labelPlural>
-  <OrcPlayer.labelMale>Male orc</OrcPlayer.labelMale>
-  <OrcPlayer.labelMalePlural>Male orcs</OrcPlayer.labelMalePlural>
-  <OrcPlayer.labelFemale>Orc Queen</OrcPlayer.labelFemale>
-  <OrcPlayer.labelFemalePlural>Orc Queens</OrcPlayer.labelFemalePlural>
-
+  <!--<OrcPlayer.label>orc</OrcPlayer.label>-->
+  <!--<OrcPlayer.labelPlural>orcs</OrcPlayer.labelPlural>-->
+  <!--<OrcPlayer.labelMale>Male orc</OrcPlayer.labelMale>-->
+  <!--<OrcPlayer.labelMalePlural>Male orcs</OrcPlayer.labelMalePlural>-->
+  <!--<OrcPlayer.labelFemale>Orc Queen</OrcPlayer.labelFemale>-->
+  <!--<OrcPlayer.labelFemalePlural>Orc Queens</OrcPlayer.labelFemalePlural>-->
 
 </LanguageData>

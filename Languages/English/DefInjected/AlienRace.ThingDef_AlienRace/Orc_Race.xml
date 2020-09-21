@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <Alien_Orc.label>orc</Alien_Orc.label>
-  <Alien_Orc.description>A hideous, brutish, single minded race.</Alien_Orc.description>
-  <Alien_Orc.tools.0.label>left fist</Alien_Orc.tools.0.label>
-  <Alien_Orc.tools.1.label>right fist</Alien_Orc.tools.1.label>
-  <Alien_Orc.tools.2.label>tusk</Alien_Orc.tools.2.label>
-  <Alien_Orc.tools.3.label>head</Alien_Orc.tools.3.label>
-
+  <!--<Alien_Orc.label>orc</Alien_Orc.label>-->
+  <!--<Alien_Orc.description>A hideous, brutish, single minded race.</Alien_Orc.description>-->
+  <!--<Alien_Orc.tools.0.label>left fist</Alien_Orc.tools.0.label>-->
+  <!--<Alien_Orc.tools.1.label>right fist</Alien_Orc.tools.1.label>-->
+  <!--<Alien_Orc.tools.2.label>tusk</Alien_Orc.tools.2.label>-->
+  <!--<Alien_Orc.tools.3.label>head</Alien_Orc.tools.3.label>-->
 
 </LanguageData>

@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <OrcScenario.label>Invasion</OrcScenario.label>
-  <OrcScenario.description>Invasion</OrcScenario.description>
-  <OrcScenario.scenario.name>Invasion</OrcScenario.scenario.name>
-  <OrcScenario.scenario.summary>Pursued by their ancient enemies, four orcs band together to conquer a new world.</OrcScenario.scenario.summary>
-  <OrcScenario.scenario.description>As Magi-Elf coalition forces breached the inner gates of demon king's fortress, victory seemed inevitable. However the warlock cheated defeat by unleashing a secret weapon which consumed his orcish war-host in a thick fog, transporting them across time and space. As the fog dissipates the orcs find themselves no longer the demon's thralls, and surrounded by a world ripe for the reaping. However, the coalition forces are unlikely to let the demon king escape so easily. </OrcScenario.scenario.description>
-  <OrcScenario.scenario.parts.10.text>Now longer bound by the demon kings power, a small clan of orcs venture out into their new world. The orc invasion has begun.</OrcScenario.scenario.parts.10.text>
-
+  <!--<OrcScenario.label>Invasion</OrcScenario.label>-->
+  <!--<OrcScenario.description>Invasion</OrcScenario.description>-->
+  <!--<OrcScenario.scenario.name>Invasion</OrcScenario.scenario.name>-->
+  <!--<OrcScenario.scenario.summary>Pursued by their ancient enemies, four orcs band together to conquer a new world.</OrcScenario.scenario.summary>-->
+  <!--<OrcScenario.scenario.description>As Magi-Elf coalition forces breached the inner gates of demon king's fortress, victory seemed inevitable. However the warlock cheated defeat by unleashing a secret weapon which consumed his orcish war-host in a thick fog, transporting them across time and space. As the fog dissipates the orcs find themselves no longer the demon's thralls, and surrounded by a world ripe for the reaping. However, the coalition forces are unlikely to let the demon king escape so easily. </OrcScenario.scenario.description>-->
+  <!--<OrcScenario.scenario.parts.10.text>Now longer bound by the demon kings power, a small clan of orcs venture out into their new world. The orc invasion has begun.</OrcScenario.scenario.parts.10.text>-->
 
 </LanguageData>

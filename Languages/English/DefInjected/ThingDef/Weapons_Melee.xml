@@ -1,20 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <MeleeWeapon_GreatMaul.label>great maul</MeleeWeapon_GreatMaul.label>
-  <MeleeWeapon_GreatMaul.description>A colossal hammer with a half spiked head, a good swing will crumple the thickest of armor.</MeleeWeapon_GreatMaul.description>
-  <MeleeWeapon_GreatMaul.tools.0.label>shaft</MeleeWeapon_GreatMaul.tools.0.label>
-  <MeleeWeapon_GreatMaul.tools.1.label>pick</MeleeWeapon_GreatMaul.tools.1.label>
-  <MeleeWeapon_GreatMaul.tools.2.label>hammer</MeleeWeapon_GreatMaul.tools.2.label>
-
-  <MeleeWeapon_GreatClub.label>great club</MeleeWeapon_GreatClub.label>
-  <MeleeWeapon_GreatClub.description>A colossal studded club, closer to a swinging a log than a hammer.</MeleeWeapon_GreatClub.description>
-  <MeleeWeapon_GreatClub.tools.0.label>head</MeleeWeapon_GreatClub.tools.0.label>
-
-  <MeleeWeapon_GreatAxe.label>great axe</MeleeWeapon_GreatAxe.label>
-  <MeleeWeapon_GreatAxe.description>A colossal axe, heavy enough to cleave limbs in a single stroke.</MeleeWeapon_GreatAxe.description>
-  <MeleeWeapon_GreatAxe.tools.0.label>head</MeleeWeapon_GreatAxe.tools.0.label>
-  <MeleeWeapon_GreatAxe.tools.1.label>edge</MeleeWeapon_GreatAxe.tools.1.label>
-
+  <!--<MeleeWeapon_GreatMaul.label>great maul</MeleeWeapon_GreatMaul.label>-->
+  <!--<MeleeWeapon_GreatMaul.description>A colossal hammer with a half spiked head, a good swing will crumple the thickest of armor.</MeleeWeapon_GreatMaul.description>-->
+  <!--<MeleeWeapon_GreatMaul.tools.0.label>shaft</MeleeWeapon_GreatMaul.tools.0.label>-->
+  <!--<MeleeWeapon_GreatMaul.tools.1.label>pick</MeleeWeapon_GreatMaul.tools.1.label>-->
+  <!--<MeleeWeapon_GreatMaul.tools.2.label>hammer</MeleeWeapon_GreatMaul.tools.2.label>-->
+  <!--<MeleeWeapon_GreatClub.label>great club</MeleeWeapon_GreatClub.label>-->
+  <!--<MeleeWeapon_GreatClub.description>A colossal studded club, closer to a swinging a log than a hammer.</MeleeWeapon_GreatClub.description>-->
+  <!--<MeleeWeapon_GreatClub.tools.0.label>head</MeleeWeapon_GreatClub.tools.0.label>-->
+  <!--<MeleeWeapon_GreatAxe.label>great axe</MeleeWeapon_GreatAxe.label>-->
+  <!--<MeleeWeapon_GreatAxe.description>A colossal axe, heavy enough to cleave limbs in a single stroke.</MeleeWeapon_GreatAxe.description>-->
+  <!--<MeleeWeapon_GreatAxe.tools.0.label>head</MeleeWeapon_GreatAxe.tools.0.label>-->
+  <!--<MeleeWeapon_GreatAxe.tools.1.label>edge</MeleeWeapon_GreatAxe.tools.1.label>-->
 
 </LanguageData>

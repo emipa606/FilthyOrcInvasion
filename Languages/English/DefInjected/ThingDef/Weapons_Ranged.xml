@@ -1,39 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Cannon -->
-
-  <Bullet_Cannonball.label>cannon ball</Bullet_Cannonball.label>
-
-  <Gun_HandCannon.label>hand cannon</Gun_HandCannon.label>
-  <Gun_HandCannon.description>A cannon small enough to be wielded by a monstrous creature. Fires a powerful explosive shot, but its recoil leaves the user vulnerable.</Gun_HandCannon.description>
-  <Gun_HandCannon.tools.0.label>barrel</Gun_HandCannon.tools.0.label>
-
-
+  <!--<Bullet_Cannonball.label>cannon ball</Bullet_Cannonball.label>-->
+  <!--<Gun_HandCannon.label>hand cannon</Gun_HandCannon.label>-->
+  <!--<Gun_HandCannon.description>A cannon small enough to be wielded by a monstrous creature. Fires a powerful explosive shot, but its recoil leaves the user vulnerable.</Gun_HandCannon.description>-->
+  <!--<Gun_HandCannon.tools.0.label>barrel</Gun_HandCannon.tools.0.label>-->
   <!-- Javelin -->
-
-  <Javelin_Thrown.label>javelin</Javelin_Thrown.label>
-
-  <Javelin.label>javelin</Javelin.label>
-  <Javelin.description>light spears designed for throwing. Its weight allows for quick throwing, useful for skirmishing at close range.</Javelin.description>
-  <Javelin.tools.0.label>shaft</Javelin.tools.0.label>
-  <Javelin.tools.1.label>point</Javelin.tools.1.label>
-
-
+  <!--<Javelin_Thrown.label>javelin</Javelin_Thrown.label>-->
+  <!--<Javelin.label>javelin</Javelin.label>-->
+  <!--<Javelin.description>light spears designed for throwing. Its weight allows for quick throwing, useful for skirmishing at close range.</Javelin.description>-->
+  <!--<Javelin.tools.0.label>shaft</Javelin.tools.0.label>-->
+  <!--<Javelin.tools.1.label>point</Javelin.tools.1.label>-->
   <!-- Throwing Axe -->
-
-  <ThrowingAxe_Thrown.label>thrown axe</ThrowingAxe_Thrown.label>
-
-  <ThrowingAxe.label>throwing axe</ThrowingAxe.label>
-  <ThrowingAxe.description>A steel headed axe balanced for throwing. Its weight allows for a hacking strike at range.</ThrowingAxe.description>
-
-
+  <!--<ThrowingAxe_Thrown.label>thrown axe</ThrowingAxe_Thrown.label>-->
+  <!--<ThrowingAxe.label>throwing axe</ThrowingAxe.label>-->
+  <!--<ThrowingAxe.description>A steel headed axe balanced for throwing. Its weight allows for a hacking strike at range.</ThrowingAxe.description>-->
   <!-- Sling -->
-
-  <Stone_Slung.label>slung stone</Stone_Slung.label>
-
-  <HeavySling.label>heavy sling</HeavySling.label>
-  <HeavySling.description>A simple but effective weapon used to hurl heavy rocks at high velocities.</HeavySling.description>
-
+  <!--<Stone_Slung.label>slung stone</Stone_Slung.label>-->
+  <!--<HeavySling.label>heavy sling</HeavySling.label>-->
+  <!--<HeavySling.description>A simple but effective weapon used to hurl heavy rocks at high velocities.</HeavySling.description>-->
 
 </LanguageData>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <FactionDef>
+  <FactionDef ParentName="HumanFactionBase">
     <defName>OrcTribe</defName>
     <label>The Orcish Clans</label>
     <description>A horde of orcs, who value only brutality.</description>
