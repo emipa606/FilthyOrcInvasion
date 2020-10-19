@@ -247,10 +247,10 @@
           <li>ThrowingAxe_Thrown</li>
           <li>Javelin_Thrown</li>
         </weaponList>
-        <recipeList>
+        <buildingList>
           <li>Stake</li>
           <li>FightingRing</li>
-        </recipeList>
+        </buildingList>
       </raceRestriction>
       <relationSettings>
         <relationChanceModifierChild>1</relationChanceModifierChild>
