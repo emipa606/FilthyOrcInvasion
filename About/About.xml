@@ -19,22 +19,32 @@
   </modDependencies>
   <loadAfter>
     <li>erdelf.HumanoidAlienRaces</li>
+    <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>Update of Hokums mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Hokums mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1267084448
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+- Added most of the patches from the Temporary Fix-mod made by Tarojun as they seemed appropriate
+https://steamcommunity.com/sharedfiles/filedetails/?id=1935332342
+- Added CE-support based on the A18-mod https://steamcommunity.com/sharedfiles/filedetails/?id=1358865420
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/FilthyOrcInvasion
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/FilthyOrcInvasion][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-From lands unknown, this mod introduces the ruthless orc clans to RimWorld.
+[img]https://i.imgur.com/NOW7jU1.png[/img]
 
-Bonuses to orcs:
+Requires [url=https://steamcommunity.com/workshop/filedetails/?id=839005762] Humanoid Alien Races 2.0 [/url] in order to play.
+
+From lands unknown, this mod introduces the ruthless orc clans to RimWorld. 
+
+[h1]Bonuses to orcs:[/h1]
 - 30% more HP
 - 30% increased mining and construction speed
 - 25% natural blunt and sharp armor ratting
@@ -42,32 +52,32 @@ Bonuses to orcs:
 - 30% increased body size (higher carrying capacity)
 - 30% decreased hunger rate
 
-Drawbacks to orcs:
+[h1]Drawbacks to orcs:[/h1]
 - 30% more vulnarable to fire
 - 20% decreased research speed
 - Comfortable temperature range of 0-32*C
 - 30% increased body size (easier to hit)
 - Can only eat meat
 
-Typical traits:
+[h1]Typical traits:[/h1]
 - Cannibal (guaranteed)
 - Brawler
 - Bloodlust
 - Ugly
 - Staggeringly ugly
 
-Orcish opinions:
+[h1]Orcish opinions:[/h1]
 - Orcs are loud, and heavy, sleepers and will not suffer 'sleep disturbed' penalty
 - Orcs receive smaller mood penalties for living in a barracks (den), and smaller mood bonuses for living in a private room (burrow)
 - Orcs care little for non-clan members and do not suffer penalties involving the mistreatment or death of prisoners.
 - Orcs receive much smaller mood penalties for ugly enviroments, but little to no mood bonuses for beautiful enviroments
--Although a cooked meal is good, orcs will gladly eat their meals raw.
+-Although a cooked meal is good,  orcs will gladly eat their meals raw.
 
-Equipment:
+[h1]Equipment:[/h1]
 Because of their size and shape orcs cannot use human atire and instead have their own apparel:
 -Loincloth
 -Large embossed leather vest
--Large hide pants
+-Large hide pants 
 -Large chest piece
 -Orcish plate helm
 -Large breastplate
@@ -81,11 +91,10 @@ Additonally orcs have access to crude oversized weapons:
 -Javelin
 -Hand cannon
 
-Buildings:
+[h1]Buildings:[/h1]
 -Stake (a more decrotive grave replacement)
 -Fighting ring (a joy building that improves melee skill)
 
 This mod is still very much a work in progress and new content will be added periodically.
-Orc body models created using textures from [L]MoreDetailBody
-https://steamcommunity.com/sharedfiles/filedetails/?id=1201462770</description>
+Orc body models created using textures from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1201462770]  [L]MoreDetailBody [/url]</description>
 </ModMetaData>
