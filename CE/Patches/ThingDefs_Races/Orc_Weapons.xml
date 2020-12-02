@@ -68,6 +68,58 @@
       </tools>
     </value>
   </Operation>
+  <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <defName>Javelin</defName>
+    <statBases>
+      <Mass>2</Mass>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <SightsEfficiency>0.5</SightsEfficiency>
+      <ShotSpread>0.1</ShotSpread>
+      <SwayFactor>1</SwayFactor>
+      <Bulk>5</Bulk>
+      <WorkToMake>13000</WorkToMake>
+    </statBases>
+    <costList>
+      <WoodLog>70</WoodLog>
+    </costList>
+    <Properties>
+      <recoilAmount>0</recoilAmount>
+      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>Javelin_Thrown_CE</defaultProjectile>
+      <warmupTime>2</warmupTime>
+      <range>18</range>
+      <soundCast>Interact_BeatFire</soundCast>
+    </Properties>
+    <FireModes>
+      <aiUseBurstMode>FALSE</aiUseBurstMode>
+    </FireModes>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Javelin"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>shaft</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.6</cooldownTime>
+          <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Poke</li>
+          </capacities>
+          <power>10</power>
+          <cooldownTime>1.6</cooldownTime>
+          <armorPenetrationSharp>0.555</armorPenetrationSharp>
+        </li>
+      </tools>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="MeleeWeapon_GreatMaul"]/tools</xpath>
     <value>
@@ -79,7 +131,7 @@
           </capacities>
           <power>20</power>
           <cooldownTime>2.0</cooldownTime>
-          <armorPenetration>0.45</armorPenetration>
+          <armorPenetrationBlunt>0.45</armorPenetrationBlunt>
           <armorPenetrationSharp>1.5</armorPenetrationSharp>
         </li>
         <li Class="CombatExtended.ToolCE">
