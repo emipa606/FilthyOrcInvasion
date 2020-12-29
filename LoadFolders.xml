@@ -8,10 +8,14 @@
     <li>/</li>
     <li>1.1</li>
     <li IfModActive="CETeam.CombatExtended">CE</li>
+    <li IfModNotActive="Kompadt.Warhammer.Gor">LoinCloth/NoGor</li>
+    <li IfModActive="Kompadt.Warhammer.Gor">LoinCloth/Gor</li>
   </v1.1>
   <v1.2>
     <li>/</li>
     <li>1.2</li>
     <li IfModActive="CETeam.CombatExtended">CE</li>
+    <li IfModNotActive="Kompadt.Warhammer.Gor">LoinCloth/NoGor</li>
+    <li IfModActive="Kompadt.Warhammer.Gor">LoinCloth/Gor</li>
   </v1.2>
 </loadFolders>
