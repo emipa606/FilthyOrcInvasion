@@ -120,6 +120,47 @@
       </tools>
     </value>
   </Operation>
+  <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+    <defName>HeavySling</defName>
+    <statBases>
+      <Mass>0.5</Mass>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+      <SightsEfficiency>0.5</SightsEfficiency>
+      <ShotSpread>0.1</ShotSpread>
+      <SwayFactor>1</SwayFactor>
+      <Bulk>2</Bulk>
+      <WorkToMake>12000</WorkToMake>
+    </statBases>
+    <Properties>
+      <recoilAmount>0</recoilAmount>
+      <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+      <hasStandardCommand>true</hasStandardCommand>
+      <defaultProjectile>Ammo_SlingBullet_Stone</defaultProjectile>
+      <warmupTime>1</warmupTime>
+      <range>20</range>
+      <soundAiming>Sling_Aiming</soundAiming>
+      <soundCast>Sling_Firing</soundCast>
+    </Properties>
+    <FireModes>
+      <aiUseBurstMode>FALSE</aiUseBurstMode>
+    </FireModes>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="HeavySling"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>sling</label>
+          <capacities>
+            <li>Blunt</li>
+          </capacities>
+          <power>8</power>
+          <cooldownTime>1.6</cooldownTime>
+          <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+        </li>
+      </tools>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="MeleeWeapon_GreatMaul"]/tools</xpath>
     <value>
