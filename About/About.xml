@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
   <name>Filthy Orc Invasion (Continued)</name>
   <packageId>Mlie.FilthyOrcInvasion</packageId>
@@ -8,6 +8,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -67,7 +68,7 @@ From lands unknown, this mod introduces the ruthless orc clans to RimWorld.
 - Staggeringly ugly
 
 [h1]Orcish opinions:[/h1]
-- Orcs are loud, and heavy, sleepers and will not suffer 'sleep disturbed' penalty
+- Orcs are loud, and heavy, sleepers and will not suffer &apos;sleep disturbed&apos; penalty
 - Orcs receive smaller mood penalties for living in a barracks (den), and smaller mood bonuses for living in a private room (burrow)
 - Orcs care little for non-clan members and do not suffer penalties involving the mistreatment or death of prisoners.
 - Orcs receive much smaller mood penalties for ugly enviroments, but little to no mood bonuses for beautiful enviroments
@@ -108,6 +109,6 @@ Orc body models created using textures from [url=https://steamcommunity.com/shar
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
-

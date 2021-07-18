@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef ParentName="CutBase">
+    <defName>RangedHack</defName>
+    <label>hack</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been hacked to death.</deathMessage>
+    <hediff>Stab</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <isRanged>true</isRanged>
+  </DamageDef>
+</Defs>

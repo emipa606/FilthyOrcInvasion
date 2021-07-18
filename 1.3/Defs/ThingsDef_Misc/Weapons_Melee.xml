@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>MeleeWeapon_GreatMaul</defName>
+    <label>great maul</label>
+    <description>A colossal hammer with a half spiked head, a good swing will crumple the thickest of armor.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/GreatMaul</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>175</costStuffCount>
+    <statBases>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>4.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>15</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>GiantMelee</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.8</cooldownTime>
+      </li>
+      <li>
+        <label>pick</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>3.5</cooldownTime>
+      </li>
+      <li>
+        <label>hammer</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>MeleeWeapon_GreatClub</defName>
+    <label>great club</label>
+    <description>A colossal studded club, closer to a swinging a log than a hammer.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/GreatClub</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>150</costStuffCount>
+    <statBases>
+      <WorkToMake>23000</WorkToMake>
+      <Mass>4.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.1</MoveSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>15</equippedAngleOffset>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Stony</li>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>GiantMelee</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>MeleeWeapon_GreatAxe</defName>
+    <label>great axe</label>
+    <description>A colossal axe, heavy enough to cleave limbs in a single stroke.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponMelee/GreatAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>75</costStuffCount>
+    <statBases>
+      <WorkToMake>23000</WorkToMake>
+      <Mass>4.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.05</MoveSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>15</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>GiantMelee</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.0</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>3.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Javelin_Thrown_CE</defName>
+    <graphicData>
+      <texPath>Things/Projectile/Javelin_Thrown</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <label>Javelin</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>RangedStab</damageDef>
+      <speed>35</speed>
+      <damageAmountBase>20</damageAmountBase>
+    </projectile>
+  </ThingDef>
+</Defs>
