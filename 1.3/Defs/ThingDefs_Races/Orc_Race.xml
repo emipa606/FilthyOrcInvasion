@@ -225,9 +225,6 @@
           <head>Orcs/Head/</head>
         </li>
       </graphicPaths>
-      <hairSettings>
-        <hasHair>true</hasHair>
-      </hairSettings>
       <raceRestriction>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <apparelList>
