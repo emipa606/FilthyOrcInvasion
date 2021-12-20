@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ModMetaData>
   <name>Filthy Orc Invasion (Continued)</name>
   <packageId>Mlie.FilthyOrcInvasion</packageId>
@@ -22,7 +22,7 @@
     <li>erdelf.HumanoidAlienRaces</li>
     <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Hokums mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1267084448
 
@@ -30,7 +30,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1267084448
 - Added CE-support based on the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1358865420]A18-mod[/url]
 - Added patch for the loincloth when [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1669073318]Warhammer: Gor[/url] is loaded
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
@@ -39,7 +39,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1267084448
 	[/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 Requires [url=https://steamcommunity.com/workshop/filedetails/?id=839005762] Humanoid Alien Races 2.0 [/url] in order to play.
 
@@ -68,7 +68,7 @@ From lands unknown, this mod introduces the ruthless orc clans to RimWorld.
 - Staggeringly ugly
 
 [h1]Orcish opinions:[/h1]
-- Orcs are loud, and heavy, sleepers and will not suffer &apos;sleep disturbed&apos; penalty
+- Orcs are loud, and heavy, sleepers and will not suffer 'sleep disturbed' penalty
 - Orcs receive smaller mood penalties for living in a barracks (den), and smaller mood bonuses for living in a private room (burrow)
 - Orcs care little for non-clan members and do not suffer penalties involving the mistreatment or death of prisoners.
 - Orcs receive much smaller mood penalties for ugly enviroments, but little to no mood bonuses for beautiful enviroments
@@ -100,7 +100,7 @@ This mod is still very much a work in progress and new content will be added per
 Orc body models created using textures from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1201462770]  [L]MoreDetailBody [/url]
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -109,6 +109,5 @@ Orc body models created using textures from [url=https://steamcommunity.com/shar
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>

@@ -1,6 +1,6 @@
 # FilthyOrcInvasion
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Hokums mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1267084448
@@ -9,19 +9,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1267084448
 - Added CE-support based on the https://steamcommunity.com/sharedfiles/filedetails/?id=1358865420]A18-mod
 - Added patch for the loincloth when https://steamcommunity.com/sharedfiles/filedetails/?id=1669073318]Warhammer: Gor is loaded
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/FilthyOrcInvasion]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
 Requires https://steamcommunity.com/workshop/filedetails/?id=839005762] Humanoid Alien Races 2.0  in order to play.
@@ -55,7 +46,7 @@ From lands unknown, this mod introduces the ruthless orc clans to RimWorld.
 
 # Orcish opinions:
 
-- Orcs are loud, and heavy, sleepers and will not suffer &apos;sleep disturbed&apos; penalty
+- Orcs are loud, and heavy, sleepers and will not suffer 'sleep disturbed' penalty
 - Orcs receive smaller mood penalties for living in a barracks (den), and smaller mood bonuses for living in a private room (burrow)
 - Orcs care little for non-clan members and do not suffer penalties involving the mistreatment or death of prisoners.
 - Orcs receive much smaller mood penalties for ugly enviroments, but little to no mood bonuses for beautiful enviroments
@@ -89,7 +80,7 @@ This mod is still very much a work in progress and new content will be added per
 Orc body models created using textures from https://steamcommunity.com/sharedfiles/filedetails/?id=1201462770]  [L]MoreDetailBody 
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -99,7 +90,6 @@ Orc body models created using textures from https://steamcommunity.com/sharedfil
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
-
 
 
 

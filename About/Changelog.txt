@@ -1,5 +1,8 @@
 # Changelog for FilthyOrcInvasion
 
+1.0.12.0 - CE-patch is now included in the main CE-mod instead
+
+
 1.0.11.0 - Added confiurable at game-start option
 
 
