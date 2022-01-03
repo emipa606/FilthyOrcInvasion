@@ -6,7 +6,7 @@ Update of Hokums mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1267084448
 
 - Added most of the patches from the https://steamcommunity.com/sharedfiles/filedetails/?id=1935332342]Temporary Fix-mod made by Tarojun as they seemed appropriate
-- Added CE-support based on the https://steamcommunity.com/sharedfiles/filedetails/?id=1358865420]A18-mod
+- [strike]Added CE-support based on the https://steamcommunity.com/sharedfiles/filedetails/?id=1358865420]A18-mod[/strike] Patches now included in the main CE-mod instead
 - Added patch for the loincloth when https://steamcommunity.com/sharedfiles/filedetails/?id=1669073318]Warhammer: Gor is loaded
 
 ![Image](https://i.imgur.com/pufA0kM.png)

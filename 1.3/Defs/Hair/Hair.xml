@@ -5,9 +5,9 @@
     <label>CleanBald</label>
     <hairGender>Any</hairGender>
     <texPath>Hair/CleanBald</texPath>
-    <hairTags>
+    <styleTags>
       <li>OrcHair</li>
-    </hairTags>
+    </styleTags>
   </HairDef>
   <!--<HairDef>
     <defName>Trihair</defName>
