@@ -225,6 +225,20 @@
           <head>Orcs/Head/</head>
         </li>
       </graphicPaths>
+      <styleSettings>
+        <li>
+          <key>HairDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+        <li>
+          <key>BeardDef</key>
+          <value>
+            <hasStyle>false</hasStyle>
+          </value>
+        </li>
+      </styleSettings>
       <raceRestriction>
         <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
         <apparelList>
