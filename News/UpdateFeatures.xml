@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="FilthyOrcInvasion_UpdateFeatureBase">
     <modNameReadable>FilthyOrcInvasion</modNameReadable>
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2178698397</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef ParentName="FilthyOrcInvasion_UpdateFeatureBase">
     <defName>FilthyOrcInvasion_1_0_1_0</defName>
     <assemblyVersion>1.0.1.0</assemblyVersion>
     <content>By request most of the patches made by the Filthy Orc Invasion temporary fix
