@@ -25,4 +25,11 @@
     <li IfModActive="Kompadt.Warhammer.Gor">Compatibility/LoinCloth/Gor</li>
     <li IfModActive="DankPyon.Medieval.Overhaul">Compatibility/MedievalOverhaul</li>
   </v1.3>
+  <v1.4>
+    <li>/</li>
+    <li>1.4</li>
+    <li IfModNotActive="Kompadt.Warhammer.Gor">Compatibility/LoinCloth/NoGor</li>
+    <li IfModActive="Kompadt.Warhammer.Gor">Compatibility/LoinCloth/Gor</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul">Compatibility/MedievalOverhaul</li>
+  </v1.4>
 </loadFolders>

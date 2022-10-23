@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_ThickNose</defName>
+    <graphicPath>Orcs/Head/Average_ThickNose</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_ThickScared</defName>
+    <graphicPath>Orcs/Head/Average_ThickScared</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_ThickRinged</defName>
+    <graphicPath>Orcs/Head/Average_ThickRinged</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_Thick</defName>
+    <graphicPath>Orcs/Head/Average_Thick</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_ThickTanned</defName>
+    <graphicPath>Orcs/Head/Average_ThickTanned</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_ThickSpotter</defName>
+    <graphicPath>Orcs/Head/Average_ThickSpotter</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_Fat</defName>
+    <graphicPath>Orcs/Head/Average_Fat</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>Average_FatWorts</defName>
+    <graphicPath>Orcs/Head/Average_FatWorts</graphicPath>
+    <gender>None</gender>
+  </HeadTypeDef>
+</Defs>

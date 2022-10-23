@@ -1,5 +1,8 @@
 # Changelog for FilthyOrcInvasion
 
+1.4.1 - Mod updated for 1.4 and passed autotests
+
+
 1.3.4 - If [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2553700067]Medieval Overhaul[/url] is loaded, helmets will use their basic component in the recipe
 
 
