@@ -1,5 +1,8 @@
 # Changelog for FilthyOrcInvasion
 
+1.4.3 - Race-restrictions fixed. Thanks greensniperhat
+
+
 1.4.2 - Fixed gene-restrictions to not affect visuals, thanks to Razar on the HAR-discord
 
 

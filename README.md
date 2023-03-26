@@ -92,6 +92,4 @@ Orc body models created using textures from https://steamcommunity.com/sharedfil
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2178698397]Last updated 2023-01-09
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2178698397]Last updated 2023-03-26
